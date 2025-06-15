@@ -11,3 +11,4 @@ export default function Contact() {
     </section>
   )
 }
+export const runtime = "edge";

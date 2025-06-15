@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { ArrowLeftIcon } from '@radix-ui/react-icons'
+export const runtime = "edge";
 
 export default function NotFound() {
   return (
