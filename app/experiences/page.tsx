@@ -19,10 +19,10 @@ export default function ExperiencesPage() {
       titleColor: resolvedTheme === 'dark' ? 'white' : 'black',
       titleColorActive: 'red',
       cardDetailsColor: resolvedTheme === 'dark' ? '#dddddd' : 'black',
+      cardDetailsBackGround: resolvedTheme === 'dark' ? '#191919' : 'none',
       cardSubtitleColor: 'orange',
       cardTitleColor: resolvedTheme === 'dark' ? '#dddddd' : 'black',
-      detailsColor: 'black',
-    }),
+    }), 
     [resolvedTheme]
   );
   if (!mounted) {
@@ -91,10 +91,8 @@ export default function ExperiencesPage() {
           items={items}
           theme={dark_theme}
           mode="VERTICAL_ALTERNATING"
-          toolbarPosition="BOTTOM"
           disableInteraction
           disableToolbar
-          enableDarkToggle
           showAllCardsHorizontal
         />
       </div>
