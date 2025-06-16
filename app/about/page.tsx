@@ -13,4 +13,4 @@ export default async function AboutMePage() {
         </section>
     )
 }
-export const runtime = "edge";
+// export const runtime = "edge";

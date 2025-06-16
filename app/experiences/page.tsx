@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { Chrono } from 'react-chrono';
 import { useTheme } from 'next-themes';
-export const runtime = "edge";
+// export const runtime = "edge";
 
 export default function ExperiencesPage() {
   const [mounted, setMounted] = useState(false);

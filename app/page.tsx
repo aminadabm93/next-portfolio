@@ -1,5 +1,5 @@
 import Intro from '@/components/intro'
-export const runtime = "edge";
+// export const runtime = "edge";
 
 export default function Home() {
   return (
