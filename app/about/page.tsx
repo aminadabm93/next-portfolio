@@ -1,7 +1,7 @@
 export default async function AboutMePage() {
 
     return (
-        <section className="pt-[20%]">
+        <section className="pt-[20%] md:pt-[10%]">
             <div className='container max-w-3xl'>
                 <h1 className='title mb-8'>About Me</h1>
                 <p className="mb-8">Let me take you back a little bit. My parents immigrated to the Houston area from Mexico in order to give me a better life. I grew up the oldest of 3 boys, often being the translator, babysitter, and my dad&apos;s assistant on quite a few jobs. He taught me a little bit of everything including plumbing, painting, construction, and electrical work.</p>

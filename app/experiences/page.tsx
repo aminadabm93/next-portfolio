@@ -80,7 +80,7 @@ export default function ExperiencesPage() {
 
 
   return (
-    <section className="pt-[10%]">
+    <section className="pt-[20%] md:pt-[10%]">
       <div className='container max-w-3xl mb-8'>
                 <h1 className='title mb-8'>Life Timeline</h1>
                 Just some important times in my life. If you&apos;d like my resume you can <a className="underline" target='_blank' href='https://drive.google.com/file/d/1Ng3ihEDXu4IPFtgJX6XFJJ0lTWNwfuDj/view?usp=sharing'>click here</a>
